@@ -1,5 +1,5 @@
 %%%%%%%%%%%%%%%%%%%%%%%% DERIVATIVE_OF_THRESHOLD %%%%%%%%%%%%%%%%%%%%%%%%%%
-function [ dproj ] = DERIVATIVE_OF_THRESHOLD( phi, beta, etha) % 投影导数
+function [ dproj ] = DERIVATIVE_OF_THRESHOLD( phi, beta, etha)
 [length_y,length_x] = size(phi);
 phi = phi(:);
 dproj = zeros(1,length(phi));
